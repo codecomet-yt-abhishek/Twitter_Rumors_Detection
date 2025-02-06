@@ -1,0 +1,36 @@
+This project involves an end-to-end automated data pipeline that migrates data from AWS S3 to Azure Cloud using Azure Data Factory (ADF) 
+with SSIS Integration Runtime (IR). The migrated data is stored in Azure Data Lake Storage Gen2 (ADLS Gen2), 
+where it undergoes advanced processing and analysis.
+
+
+Key Components & Technologies Used:
+-------------------------------------
+Data Migration: ADF SSIS IR facilitates seamless data transfer from AWS S3 to Azure.
+
+Data Storage: Data is stored in ADLS Gen2, ensuring scalability and security.
+
+Big Data Processing: Applied PySpark in Databricks to analyze Twitter data for rumor detection.
+
+Performance Optimization: Implemented optimization techniques such as partitioning, caching, and query tuning for efficient data processing.
+
+Data Warehouse & Analytics: The final processed data is loaded into Azure Synapse Analytics.
+
+Automation & Scalability: The pipeline is fully automated, ensuring real-time data processing and analysis with minimal manual intervention.
+
+
+
+Business Impact & Insights:
+-----------------------------
+Scalable Data Pipeline: Efficiently handles large-scale Twitter data.
+
+AI-Driven Insights: Enhances rumor detection accuracy using machine learning and PySpark.
+
+Optimized Query Performance: Reduces latency in data processing and analytics.
+
+Cloud-Native Architecture: Uses serverless and cloud-native technologies for cost-effectiveness.
+
+
+Outcome:
+--------
+This project successfully automates the migration, processing, and analysis of social media data, delivering real-time insights 
+and supporting decision-making in rumor detection and trend analysis.
