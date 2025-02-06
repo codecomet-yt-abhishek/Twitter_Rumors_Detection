@@ -6,10 +6,3 @@ The dataset focuses on source tweets, omitting conversation threading or additio
 
 This directory contains data from the Twitter15 dataset, specifically focusing on source tweets and their corresponding labels. It is designed for research and experimentation in rumor detection and misinformation classification.
 
-File Details:
-labels:
-
-This file provides the ground-truth labels for the source tweets.
-source_tweets:
-
-This file contains the content of the source tweets.
